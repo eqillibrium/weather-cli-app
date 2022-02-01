@@ -1,0 +1,21 @@
+{
+  "name": "cli-weather-app",
+  "version": "1.0.0",
+  "description": "a simple console application for requesting weather according to the city",
+  "main": "index.js",
+  "bin": {
+    "weather": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naerdel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
+  }
+}
